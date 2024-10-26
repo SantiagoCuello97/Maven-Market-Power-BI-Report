@@ -2,7 +2,7 @@
 
 ![2](https://github.com/user-attachments/assets/b7f7b4b3-a7ef-4e4c-b569-a010731f559e)
 
-This project covers the complete workflow of Business Intelligence using data from Maven Market, a multinational grocery chain with locations in Canada, Mexico, and the United States. The project starts with data connection and modeling and concludes with creating interactive reports in Power BI. It is divided into four main phases:
+This project covers the complete workflow of Business Intelligence using data from Maven Market, a multinational grocery chain with locations in Canada, Mexico, and the United States. The project starts with data connection and modeling and concludes with creating an interactive report in Power BI. It is divided into four main phases:
 
 ## Table of Contents
 - [Part 1: Connecting & Shaping Data](#part-1-connecting--shaping-data)
@@ -21,7 +21,7 @@ This project covers the complete workflow of Business Intelligence using data fr
 3. **Table Transformations**:
    - In the **Customers** table:
      - New columns for full name and birth year were created.
-     - A conditional column indicated if customers have children.
+     - A conditional column was created to indicate if customers have children.
    - In **Products**:
      - Columns for discount price and average price by brand were added.
      - Null values in the recyclable and low-fat columns were corrected.
@@ -51,7 +51,7 @@ This project covers the complete workflow of Business Intelligence using data fr
 
 ## Part 3: Adding DAX Measures & Calculated Columns
 1. **Calculated Columns**: 
-   - Columns such as “End of Month” and “Weekend” were added in Calendar, along with age, priority level, and country abbreviations in Customers, and years since last remodel in Stores.
+   - Columns such as “End of Month” and “Weekend” were added in Calendar, along with age, priority level, country abbreviations in Customers, and years since the last remodel in Stores.
 
 2. **Key Metrics**:
    - Measures calculated quantities sold and returned, showing an average return rate of 0.99%.
@@ -72,12 +72,12 @@ This project covers the complete workflow of Business Intelligence using data fr
    - KPI cards highlighted current month transactions, profit, and returns.
 
 3. **Map & Breakdown Charts**: 
-   - An interactive map visualized transactions by city, complemented by a treemap showing transaction breakdown by country, state, and city.
+   - An interactive map was created to visualize transactions by city, complemented by a treemap showing transaction breakdown by country, state, and city.
 
 4. **Revenue Trend**: 
    - A column chart displayed weekly revenue trends, and a gauge chart compared revenue against targets.
 
 5. **Bookmarks & Notes**: 
-   - Specific bookmarks, such as “Portland 1000 Sales,” and a “Notes” page with navigation buttons highlighted key findings.
+   - Specific bookmarks, such as “Portland 1000 Sales,” and a “Notes” page with navigation buttons highlighting key findings.
 
 The final report delivers an interactive experience, enabling users to analyze key business metrics and make data-informed decisions through integrated Power BI insights.
