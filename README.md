@@ -1,5 +1,7 @@
 # Maven Market Business Intelligence Project
 
+![2](https://github.com/user-attachments/assets/b7f7b4b3-a7ef-4e4c-b569-a010731f559e)
+
 This project covers the complete workflow of Business Intelligence using data from Maven Market, a multinational grocery chain with locations in Canada, Mexico, and the United States. The project starts with data connection and modeling and concludes with creating interactive reports in Power BI. It is divided into four main phases:
 
 ## Table of Contents
